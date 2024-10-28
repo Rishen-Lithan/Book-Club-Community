@@ -3,6 +3,13 @@ import { useState } from 'react'
 import Author1 from '../../Assets/Images/author1.jpeg'
 import Author2 from '../../Assets/Images/author2.jpeg'
 import Author3 from '../../Assets/Images/author3.jpeg'
+import Author4 from '../../Assets/Images/author4.jpeg'
+import Author5 from '../../Assets/Images/author5.jpeg'
+import Author6 from '../../Assets/Images/author6.jpeg'
+import Author7 from '../../Assets/Images/author7.jpeg'
+import Author8 from '../../Assets/Images/author8.jpeg'
+import Author9 from '../../Assets/Images/author9.jpeg'
+import Author10 from '../../Assets/Images/author10.jpeg'
 import AuthorCard from './author-card'
 
 function Authors() {
@@ -37,7 +44,7 @@ function Authors() {
             "bio": "English novelist known for works like 'Pride and Prejudice' and 'Sense and Sensibility'.",
             "dateOfBirth": "1775-12-16",
             "nationality": "British",
-            "image": Author1
+            "image": Author4
         },
         {
             "id": 5,
@@ -45,7 +52,7 @@ function Authors() {
             "bio": "American writer known for 'The Adventures of Tom Sawyer' and 'Adventures of Huckleberry Finn'.",
             "dateOfBirth": "1835-11-30",
             "nationality": "American",
-            "image": Author2
+            "image": Author5
         },
         {
             "id": 6,
@@ -53,7 +60,7 @@ function Authors() {
             "bio": "English writer and social critic, famous for 'A Tale of Two Cities' and 'Great Expectations'.",
             "dateOfBirth": "1812-02-07",
             "nationality": "British",
-            "image": Author3
+            "image": Author6
         },
         {
             "id": 7,
@@ -61,7 +68,7 @@ function Authors() {
             "bio": "Russian author known for 'War and Peace' and 'Anna Karenina'.",
             "dateOfBirth": "1828-09-09",
             "nationality": "Russian",
-            "image": Author1
+            "image": Author7
         },
         {
             "id": 8,
@@ -69,15 +76,15 @@ function Authors() {
             "bio": "Colombian novelist, known for 'One Hundred Years of Solitude' and 'Love in the Time of Cholera'.",
             "dateOfBirth": "1927-03-06",
             "nationality": "Colombian",
-            "image": Author2
+            "image": Author8
         },
         {
             "id": 9,
-            "name": "Homer",
-            "bio": "Ancient Greek poet, traditionally said to be the author of 'The Iliad' and 'The Odyssey'.",
-            "dateOfBirth": "Unknown",
-            "nationality": "Greek",
-            "image": Author3
+            "name": "Arthur conan doyle",
+            "bio": "Sir Arthur Ignatius Conan Doyle KStJ, DL was a British writer and physician.",
+            "dateOfBirth": "1859-05-22",
+            "nationality": "British",
+            "image": Author9
         },
         {
             "id": 10,
@@ -85,7 +92,7 @@ function Authors() {
             "bio": "British writer, famous for her detective novels, especially those revolving around Hercule Poirot.",
             "dateOfBirth": "1890-09-15",
             "nationality": "British",
-            "image": Author1
+            "image": Author10
         }
     ]);
     
