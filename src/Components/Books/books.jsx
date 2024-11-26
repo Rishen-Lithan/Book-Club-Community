@@ -137,7 +137,7 @@ function Books() {
 
   return (
     <div>
-      <h1>Popular Book Collection</h1>
+      <h1 className='bg-blue-950/75 p-4 h-20 flex flex-col justify-center text-gray-200 text-2xl font-semibold'>Our Popular Book Collection</h1>
       <div className='flex flex-wrap justify-evenly'>
         {books.length > 0 && books.map((book) => {
           return (
